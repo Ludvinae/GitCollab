@@ -24,6 +24,7 @@ L’objectif principal est de **s’entraîner à collaborer avec Git** (branche
 | **Formater l’affichage**          | Présenter les informations d’un livre ou de la collection de manière claire et lisible.    | Facile             |
 | **Statistiques**                  | Calculer et afficher des informations sur la collection (ex : nombre de livres par genre). | Difficile          |
 | **Recommandations**               | Proposer des livres similaires à un livre donné (même genre, même éditeur, etc.).          | Difficile          |
+
 *Cette liste est uniquement à titre indicatif pour pouvoir commencer le projet, n'hésitez pas à proposer vos idées au groupe*
 
 ---
