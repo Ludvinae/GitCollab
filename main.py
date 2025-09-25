@@ -18,5 +18,22 @@ with open(données, mode="r", encoding="utf-8") as fichier:
 # Tous les champs sont des chaînes de caractères.
 # Ajouter les fonctionnalitées en dessous.
 
+def referencement():
+    for i in range(len(livres)):
+        isbn = livres[i]["isbn"]
+        reference[isbn] = i
+
+reference = {}
+
+def indexLivres(isbn):
+    return livres[reference[isbn]]    
+
+
+
+
+
 for i in range(3):
     print(livres[i])
+
+referencement()
+#print(indexLivres("9781542045520"))
