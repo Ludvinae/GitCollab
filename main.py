@@ -23,17 +23,16 @@ def referencement():
         isbn = livres[i]["isbn"]
         reference[isbn] = i
 
-reference = {}
-
 def indexLivres(isbn):
     return livres[reference[isbn]]    
 
+def afficherLivre(livre):
+    print(f"* {livre["title"]} | {livre["editeur"]} | {livre["classification_decitre_1"]} | {livre["isbn"]} *" )
 
 
+reference = {}
 
-
-for i in range(3):
-    print(livres[i])
 
 referencement()
-#print(indexLivres("9781542045520"))
+exempleLivre = indexLivres("9781542045520")
+afficherLivre(exempleLivre)
